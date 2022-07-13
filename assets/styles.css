@@ -1,0 +1,28 @@
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* colori testi, bottoni, background */
+:root{
+    --blue: #2D64E6;
+    --dark_blue: #00439C;
+    --orange: #CD3D0F;
+    --grey: #D9DADC;
+    --dark_grey: #BEBCBB;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+/* header */
+.header_sony_logo{
+    height: 2.25rem;
+    color: white;
+}
+
+#header_nav{
+    height: 4rem;
+}
+
