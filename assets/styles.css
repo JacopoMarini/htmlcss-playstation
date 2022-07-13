@@ -12,6 +12,10 @@ img{
     --dark_grey: #BEBCBB;
 }
 
+.bg_orange{
+    background-color: var(--orange);
+}
+
 .bg_white{
     background-color: white;
 }
@@ -26,3 +30,14 @@ img{
     height: 4rem;
 }
 
+/* carousel */
+
+.carousel_description{
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+}
+
+.carousel_description p{
+    width: 26.8rem;
+}
