@@ -32,6 +32,10 @@ img{
     background-color: white;
 }
 
+.bg_lightgrey{
+    background-color: var(--grey)
+}
+
 /* header */
 .header_sony_logo{
     height: 2.25rem;
@@ -81,4 +85,9 @@ img{
 
 .new_game_img{
     border-radius: 20px;
+}
+
+#ps_plus{
+    background-color: var(--dark_grey);
+    height: 25rem;
 }
