@@ -78,3 +78,7 @@ img{
     background-image: url('../assets/img/it-takes-two-hero-banner-desktop.jpg');
     height: 38.625rem;
 }
+
+.new_game_img{
+    border-radius: 20px;
+}
