@@ -1,3 +1,7 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 img{
     max-width: 100%;
     max-height: 100%;
@@ -50,3 +54,13 @@ img{
     width: 26.8rem;
 }
 
+.dropdown_toggle::after{
+    border: none;
+    content: '\f107';
+    font: var(--fa-font-solid);
+}
+
+.dropwdown-toggle{
+    display: flex;
+    align-items: center;
+}
