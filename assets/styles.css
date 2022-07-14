@@ -38,13 +38,7 @@ img{
     height: 4rem;
 }
 
-/* carousel */
-
-.carousel_description{
-    position: absolute;
-    bottom: 3rem;
-    left: 5rem;
-}
+/* Jumbotron */
 
 .col:hover{
     border: 2px solid var(--blue);
@@ -54,13 +48,8 @@ img{
     width: 26.8rem;
 }
 
-.dropdown_toggle::after{
-    border: none;
-    content: '\f107';
-    font: var(--fa-font-solid);
-}
-
-.dropwdown-toggle{
-    display: flex;
-    align-items: center;
+#jumbotron{
+    background-image: url('../assets/img/jumbo-bg.png');
+    background-repeat: no-repeat;
+    height: 36.625rem;
 }
