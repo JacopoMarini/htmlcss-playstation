@@ -20,6 +20,10 @@ img{
     --dark_grey: #BEBCBB;
 }
 
+.bg_blue{
+    background-color: var(--blue);
+}
+
 .bg_orange{
     background-color: var(--orange);
 }
@@ -40,7 +44,7 @@ img{
 
 /* Jumbotron */
 
-.col:hover{
+.games_thumb:hover{
     border: 2px solid var(--blue);
 }
 
@@ -52,4 +56,25 @@ img{
     background-image: url('../assets/img/jumbo-bg.png');
     background-repeat: no-repeat;
     height: 36.625rem;
+}
+
+/* console ps5 */
+
+.ps5_card p{
+    width: 500px;
+}
+
+.ps5_opacity{
+    opacity: 0.5;
+}
+
+.ps5_opacity:hover{
+    opacity: 1;
+    border-bottom: 1px solid var(--blue);
+}
+
+/* new releases */
+#new_releases{
+    background-image: url('../assets/img/it-takes-two-hero-banner-desktop.jpg');
+    height: 38.625rem;
 }
