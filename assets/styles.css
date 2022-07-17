@@ -91,3 +91,28 @@ img{
     background-color: var(--dark_grey);
     height: 25rem;
 }
+
+/* PlayStation Now */
+#ps_now{
+    background-color: #161C3B;
+}
+
+.social_container{
+    max-width: 740px;
+}
+
+/* footer */
+
+#site_footer{
+    background-color: var(--dark_blue);
+    color: white;
+}
+
+#site_footer .row .col-2 ul, ol, menu{
+    list-style-type: none;
+}
+
+#site_footer .row .col-2 a{
+    text-decoration: none;
+    color: white;
+}
